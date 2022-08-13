@@ -6,7 +6,8 @@ import Home from './pages/home';
 import About from './pages/about';
 import Skills from './pages/skills';
 import Projects from './pages/projects';
-import Experience from './pages/experience';
+import Project from './pages/project';
+import Contact from './pages/contact';
 import "./App.css"
 
 function App() {
@@ -36,7 +37,8 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/experience" element={<Experience />} />
+      <Route path="/project/:name" element={<Project />} />
+      <Route path="/contact" element={<Contact />} />
       </Routes>
     </ThemeProvider>
   );

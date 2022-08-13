@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <div className={darkMode ? "bg-gray-700" : "bg-white"}>
-        <main className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between md:h-screen">
+        <main className="mx-auto mt-5 max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between md:h-screen">
           <motion.img
             initial="hidden"
             whileInView={"visible"}
@@ -23,22 +23,22 @@ const Home = () => {
                   type: "spring",
                 },
               },
-              hidden: { opacity: 1, y: 80 },
+              hidden: { opacity: 1, y: 50 },
             }}
             src={image}
             alt="Mangai"
             className="mt-10 sm:w-40 sm:h-40 md:w-80 md:h-80 sm:block md:ml-10 rounded-full"
           />
-          <div className="mt-10 sm:text-center lg:text-left mb-10 md:mr-10">
+          <div className="mt-10 text-center lg:text-left mb-10 md:mr-10">
             <div className="text-amber-400">
-              <div className="text-base mb-5 uppercase">
+              <div className="mb-5 uppercase">
                 Welcome to my portfolio!
               </div>
               <div
                 className={
                   darkMode
-                    ? "text-white font-bold mb-2 sm:text-4xl md:text-5xl"
-                    : "text-indigo-800 font-bold mb-2 sm:text-4xl md:text-5xl"
+                    ? "text-white font-bold mb-2 text-2xl sm:text-4xl md:text-5xl"
+                    : "text-indigo-800 font-bold mb-2 text-2xl sm:text-4xl md:text-5xl"
                 }
               >
                 I'm Mangaiyarkarasi
@@ -85,12 +85,12 @@ const Home = () => {
             <div className="mt-8">
               <a
                 href="#"
-                alt="Drive link for resume"
                 className={
                   darkMode
                     ? "text-black bg-white py-2 px-10 rounded-md hover:bg-gray-200"
                     : "text-white bg-indigo-800 py-2 px-10 rounded-md hover:bg-indigo-700"
                 }
+                target="_blank"
               >
                 View Resume
               </a>

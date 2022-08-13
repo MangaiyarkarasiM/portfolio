@@ -7,3 +7,8 @@
   color: white;
   background-color: rgb(59 130 246);
 }
+
+.contact-card {
+	cursor: pointer;
+	box-shadow: 1px 1px 7px grey !important;
+}
