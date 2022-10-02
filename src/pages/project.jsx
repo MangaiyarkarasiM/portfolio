@@ -39,12 +39,12 @@ const Project = () => {
               <h5 className="sm:text-xl md:text-2xl text-amber-400 font-medium mb-5">
                 Tech Stack
               </h5>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap justify-center items-center gap-2">
                 {project.techStack?.map((tech, index) => {
                   return (
                     <span
                       key={index}
-                      className="w-24 bg-gray-200 text-indigo-800 text-center rounded-3xl mr-2 p-2"
+                      className="w-40 bg-gray-200 text-indigo-800 text-center rounded-3xl my-auto mr-2 p-2"
                     >
                       {tech}
                     </span>

@@ -111,7 +111,7 @@ export const projects = [
     url: "http://mytickets.com.s3-website-us-east-1.amazonaws.com/login",
     frontEndRepo: "https://github.com/MangaiyarkarasiM/mytickets-frontend.git",
     backEndRepo: "https://github.com/MangaiyarkarasiM/mytickets-backend.git",
-    techStack: ["ReactJs", "NodeJs", "Express", "Bootstrap", "CSS", "MongoDB", "S3"],
+    techStack: ["ReactJs", "NodeJs", "Express", "Bootstrap", "CSS", "MongoDB", "AWS S3"],
     demoCred: [
       { role: "admin", userId: "xyz@gmail.com", password: "123" },
       { role: "user", userId: "xyz3@gmail.com", password: "1234" },
@@ -124,7 +124,7 @@ export const projects = [
     url: "http://asset-ref.s3-website-us-east-1.amazonaws.com/login",
     frontEndRepo: "https://github.com/MangaiyarkarasiM/ams-frontend.git",
     backEndRepo: "https://github.com/MangaiyarkarasiM/ams-backend.git",
-    techStack: ["ReactJs", "NodeJs", "Express", "Bootstrap", "CSS", "MongoDB", "S3"],
+    techStack: ["ReactJs", "NodeJs", "Express", "Bootstrap", "CSS", "MongoDB", "AWS S3"],
     demoCred: [
       { role: "user", userId: "abcd", password: "12345" },
       { role: "user", userId: "abcde", password: "12345678" },
@@ -137,7 +137,7 @@ export const projects = [
     url: "http://book-buddy.s3-website-us-east-1.amazonaws.com/login",
     frontEndRepo: "https://github.com/MangaiyarkarasiM/bookbuddy-frontend.git",
     backEndRepo: "https://github.com/MangaiyarkarasiM/bookbuddy-backend.git",
-    techStack: ["ReactJs", "NodeJs", "Express", "Tailwind CSS", "CSS", "MySQL", "AWS RDS", "S3"],
+    techStack: ["ReactJs", "NodeJs", "Express", "Tailwind CSS", "CSS", "MySQL", "AWS RDS", "AWS S3"],
     demoCred: [
       { role: "admin", userId: "aaaaa", password: "12345" },
       { role: "user", userId: "bbbbb", password: "12345" },
@@ -150,7 +150,7 @@ export const projects = [
     url: "http://the-storynest.s3-website-us-east-1.amazonaws.com/login",
     frontEndRepo: "https://github.com/MangaiyarkarasiM/storynest-frontend.git",
     backEndRepo: "https://github.com/MangaiyarkarasiM/storynest-backend.git",
-    techStack: ["ReactJs", "NodeJs", "Express", "Tailwind CSS", "CSS", "MySQL", "AWS RDS", "DynamoDB", "S3"],
+    techStack: ["ReactJs", "NodeJs", "Express", "Tailwind CSS", "CSS", "MySQL", "AWS RDS", "AWS DynamoDB", "AWS S3"],
     demoCred: [
       { role: "user", userId: "abcde", password: "12345" },
       { role: "user", userId: "abcd12", password: "12345" },

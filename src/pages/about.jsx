@@ -82,7 +82,7 @@ const About = () => {
               >
                 <div className={darkMode ? "text-white" : "text-indigo-800"}>
                   <h3>Bachelor of Engineering</h3>
-                  <h5>ECE</h5>
+                  <h5>ECE - KCT, Coimbatore</h5>
                   <div>2014 - 2018</div>
                 </div>
               </motion.div>
