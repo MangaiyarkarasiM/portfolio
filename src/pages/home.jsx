@@ -86,7 +86,7 @@ const Home = () => {
             </div>
             <div className="mt-8">
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1IHyKQ2N0Me-2WgsRGxuF_TXHFtI-n-R1/view"
                 className={
                   darkMode
                     ? "text-black bg-white py-2 px-10 rounded-md hover:bg-gray-200"
