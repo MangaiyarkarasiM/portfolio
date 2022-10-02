@@ -7,9 +7,8 @@ const Contact = () => {
   const { darkMode } = useContext(ThemeContext);
 
   return (
-    <>
-      <div className={darkMode ? "bg-gray-700" : "bg-white"}>
-        <div className="pt-24 container px-10 md:mx-auto min-h-screen">
+      <div className={darkMode ? "bg-gray-700 pb-5 min-h-screen" : "bg-white pb-5"}>
+        <div className="pt-24 container px-5 md:px-10 md:mx-auto">
           <div className="flex flex-wrap gap-10 pb-10 justify-center">
             {contactDetails?.map((cd) => {
               return (
@@ -34,7 +33,7 @@ const Contact = () => {
               );
             })}
           </div>
-          <div className="float-right">
+          <div className="text-right" >
             <div className={ darkMode ? "text-2xl text-amber-400 font-bold" : "text-2xl text-indigo-800 font-bold"}>Lets catch up!</div>
             <div className="flex mt-5 justify-end">
               {contacts?.map((con) => {
@@ -60,7 +59,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

@@ -56,6 +56,8 @@ const Home = () => {
                     2000,
                     "Front End Developer",
                     2000,
+                    "Back End Developer",
+                    2000,
                   ]}
                   loop={Infinity}
                 />

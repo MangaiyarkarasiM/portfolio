@@ -15,7 +15,7 @@ const Project = () => {
 
   return (
     <>
-      <div className={darkMode ? "bg-gray-900" : "bg-white"}>
+      <div className={darkMode ? "bg-gray-700 min-h-screen" : "bg-white"}>
         <div className="pt-24 container px-10 md:mx-auto min-h-screen min-w-screen">
           <div className="mb-5">
             <img
