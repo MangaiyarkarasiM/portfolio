@@ -23,14 +23,14 @@ const About = () => {
               Hi 👋, I'm Mangaiyarkarasi
             </h2>
             <p
-              className={darkMode ? "mt-5 text-white" : "mt-5 text-zinc-500"}
+              className={darkMode ? "mt-5 text-lg text-white" : "mt-5 text-lg text-zinc-600"}
             >
               A Full Stack Developer from Tamil Nadu. I have been learning MERN
               stack web development and developing the responsive web
               applications for the past 7+ months.
               <br />
               <br />
-              I am always curious in gaining new knowledge and apply that knowledge in solving the challenging problems.
+              A self motivated and independent person having knowledge in MERN Stack development with the curiosity to solve the problems using programming and technology. I am always curious in gaining new knowledge and apply that knowledge in solving the challenging problems.
               <br />
               <br />
               Right now I am going to complete{" "}

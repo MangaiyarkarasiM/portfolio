@@ -26,7 +26,7 @@ const Project = () => {
           </div>
           <div
             className={
-              darkMode ? "md:ml-10 text-white" : "md:ml-10 text-zinc-500"
+              darkMode ? "md:ml-10 text-white" : "md:ml-10 text-zinc-600"
             }
           >
             <div className="mb-5 text-center">
@@ -79,9 +79,9 @@ const Project = () => {
                   Demo Credentials:
                 </div>
                 <div className="flex flex-col">
-                  {project.demoCred?.map((d) => {
+                  {project.demoCred?.map((d,index) => {
                     return (
-                      <div key={d.role} className="mb-3">
+                      <div key={index} className="mb-3">
                         <div className="capitalize text-amber-400 font-medium">
                           {d.role}:
                         </div>

@@ -177,4 +177,10 @@ export const contactDetails = [
     data: "+91 9488122020",
     href: "tel:+919488122020",
   },
+  {
+    iconSrc: "static/icons/github.svg",
+    type: "Github",
+    data: "MangaiyarkarasiM",
+    href: "https://github.com/MangaiyarkarasiM",
+  },
 ];

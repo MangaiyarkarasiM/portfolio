@@ -27,13 +27,15 @@ const Home = () => {
             }}
             src={image}
             alt="Mangai"
-            className="mt-10 sm:w-40 sm:h-40 md:w-80 md:h-80 sm:block md:ml-10 rounded-full"
+            className={
+              darkMode
+                ? "mt-10 sm:w-40 sm:h-40 md:w-80 md:h-80 sm:block md:ml-10 rounded-full"
+                : "mt-10 sm:w-40 sm:h-40 md:w-80 md:h-80 sm:block md:ml-10 rounded-full border border-gray-300"
+            }
           />
           <div className="mt-10 text-center lg:text-left mb-10 md:mr-10">
             <div className="text-amber-400">
-              <div className="mb-5 uppercase">
-                Welcome to my portfolio!
-              </div>
+              <div className="mb-5 uppercase">Welcome to my portfolio!</div>
               <div
                 className={
                   darkMode
