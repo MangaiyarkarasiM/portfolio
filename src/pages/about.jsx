@@ -27,17 +27,17 @@ const About = () => {
             >
               A Full Stack Developer from Tamil Nadu. I have been learning MERN
               stack web development and developing the responsive web
-              applications for the past 7+ months.
+              applications for around 1+ year.
               <br />
               <br />
               A self motivated and independent person having knowledge in MERN Stack development with the curiosity to solve the problems using programming and technology. I am always curious in gaining new knowledge and apply that knowledge in solving the challenging problems.
               <br />
               <br />
-              Right now I am going to complete{" "}
+              {/* Right now I am going to complete{" "}
               <span className="font-medium text-amber-400">
                 Full Stack Development Program{" "}
               </span>
-              from GUVI Geeks Network Private Limited, IIT Madras Research Park, Chennai.
+              from GUVI Geeks Network Private Limited, IIT Madras Research Park, Chennai. */}
             </p>
           </div>
           <h2 className="mt-10 text-amber-400 sm:text-xl md:text-2xl font-medium">
